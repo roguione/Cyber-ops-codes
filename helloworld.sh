@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Script: Ops 201 Class 02 Ops Challenge Solution
-# Author:
-# Date of latest revision:
+# Author: Justin H
+# Date of latest revision: 2/7/23
 # Purpose: Print a string to the terminal
 
 
