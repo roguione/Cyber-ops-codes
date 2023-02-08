@@ -8,4 +8,6 @@
 
 # Main
 
+echo "i am alive"
+
 # End
