@@ -11,11 +11,11 @@
 
 mkdir home1 home2 home3 home4
 
-path_array=("./home1/" "./home2/" ",/home3/" ",/home/")
+path_array=("./home1/" "./home2/" ",/home3/" ",/home4/")
 
 touch ${path_array[0]}file1.sh 
 touch ${path_array[1]}file2.sh
-touch ${path_array[2]}file2.sh
-touch ${path_array[3]}file3.sh
+touch ${path_array[2]}file3.sh
+touch ${path_array[3]}file4.sh
 
 # End
