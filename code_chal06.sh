@@ -1,4 +1,12 @@
 #!/bin/bash
+# Script: Ops 201 Class 04 Ops Challenge Solution
+# Author: Justin H
+# Date of latest revision: 2/13/23
+# Purpose: Conditionals
+
+# Team: Geneva && Sierra
+
+# Main
 
 paths=("./home1" "./home2" "./home3" "./home4")
 
