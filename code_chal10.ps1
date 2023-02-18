@@ -13,6 +13,7 @@ get-process | select-object {$_.Workingset } -first 5
 
 # Start the process Internet Explorer (iexplore.exe) and have it open https://owasp.org/www-project-top-?ten/.
 $ie = Start-process -file iexplore -arg "https://owasp.org/www-project-top-?ten/." -passthru
+
 # Start the process Internet Explorer (iexplore.exe) ten times using a for loop. Have each instance open https://owasp.org/www-project-top-ten/.
 1..10 | ForEach-Object {
     $ie = New-Object -ComObject InternetExplorer.Application
