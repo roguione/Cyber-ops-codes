@@ -3,6 +3,7 @@
 # 03/14/23
 
 #Varibles
+
 source_path="/var/log/syslog"
 dest_path=$(pwd)
 
@@ -11,6 +12,3 @@ filename=$(date +"%Y-%m-%d")
 
 #Copy
 cp "$source_path" "$dest_path/$filename"
-
-
-
