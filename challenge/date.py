@@ -1,3 +1,9 @@
+#!/bin/bash
+# Script: Ops 301 chal 01
+# Author: Justin H
+# Date of latest revision: 3/13/23
+
+
 import os
 import datetime
 
@@ -17,4 +23,3 @@ log_file = os.path.join(log_dir, "mylog_{}.txt".format(today))
 # Write a message to the log file
 with open(log_file, "a") as f:
     f.write("This is a log message for {}\n".format(today))
-
