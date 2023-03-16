@@ -2,8 +2,11 @@
 # Author: Justin H
 # Date of latest revision: 3/15/23
 # Purpose: File Permissions
-
 # Team: Geneva, Nick, && Sierra
+
+#  Script first checks if the hello.txt file exists in the /home/roguione/hello directory 
+#  Using the -f option of the test command. 
+#  If it doesn't exist, it creates the file with the content "Hello, world!".
 
 #!/bin/bash
 
