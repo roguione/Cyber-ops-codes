@@ -20,7 +20,7 @@ do
         echo "Hello world!"
     elif [ $choice == "2" ]
     then
-        ping 127.0.0.1
+        ping -c 4 127.0.0.1
     elif [ $choice == "3" ]
     then
         ifconfig
@@ -32,3 +32,4 @@ do
         echo "Invalid choice. Please enter a number between 1 and 4."
     fi
 done
+
