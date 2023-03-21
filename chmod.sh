@@ -8,6 +8,8 @@
 #  Using the -f option of the test command. 
 #  If it doesn't exist, it creates the file with the content "Hello, world!".
 
+
+
 #!/bin/bash
 
 # Set the directory path
