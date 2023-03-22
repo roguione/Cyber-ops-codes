@@ -4,8 +4,10 @@
 # Purpose: Directory Creation
 # Team: Geneva, Nick, && Sierra
 
-
-
+# This is a script that generates information about all directories, sub-directories, and files in a user-provided path using os.walk().
+# The script includes a create_test_directory() function that creates a directory and three sub-directories with user-specified names under the path "/home/roguione/Desktop". 
+# Overall, the script provides a convenient way to generate and analyze directory information
+# This function is called twice to create a test directory and generate information about it using generate_directory_info()
 
 #!/usr/bin/env python3
 
