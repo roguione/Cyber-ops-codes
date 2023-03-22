@@ -1,3 +1,12 @@
+# Script: Ops 301 ops chal-07
+# Author: Justin H
+# Date of latest revision: 3/22/23
+# Purpose: Directory Creation
+# Team: Geneva, Nick, && Sierra
+
+
+
+
 #!/usr/bin/env python3
 
 # Import libraries
