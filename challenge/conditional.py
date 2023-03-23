@@ -8,10 +8,10 @@
 # This is a Python script that prompts the user to enter four numbers a, b, c, and d
 # Then performs some logical operations on them using if-else statements.
 
-a = "2 dogs"   # Assign "dog" to the variable a
-b = "1 cat"   # Assign "cat" to the variable b
-c = "5 humans" # Assign "human" to the variable c
-d = "3 ape"   # Assign "ape" to the variable d
+a = "2 dogs"   # Assign "2 dogs" to the variable a
+b = "1 cat"   # Assign "1 cat" to the variable b
+c = "5 humans" # Assign "5 humans" to the variable c
+d = "3 apes"   # Assign "3 apes" to the variable d
 
 # Check if b is greater than a
 if b > a:
