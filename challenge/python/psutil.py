@@ -28,7 +28,7 @@ import psutil
 desktop_path = os.path.join(os.path.expanduser('~'), 'Desktop')
 
 # Create a file to store the system information
-filename = 'system_info.txt'
+filename = 'psutil.txt'
 file_path = os.path.join(desktop_path, filename)
 
 # Open the file for writing
