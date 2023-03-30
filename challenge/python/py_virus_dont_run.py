@@ -7,8 +7,18 @@
 # Team: Geneva, Nick, && Sierra
 
 # Note: The code presented here is a file-infecting virus and is for educational purposes only. Creating and distributing malware is illegal and unethical.
-# This code represents a simple virus that searches for Python files on a directory and infects them. 
-# The virus contains a signature and a payload that can be detonated on a specific date.
+# This code is a file-infecting virus that targets Python scripts in the current directory and all its subdirectories. 
+# It searches for files with the .py extension and checks if they are already infected by looking for the signature "VIRUS". 
+# If a file is not infected, it adds it to the list of files to infect. 
+# The virus then appends itself to the target files and saves the original contents to be executed later. 
+# Finally, the virus activates itself on May 9th of any year by printing "You have been hacked" to the console.
+# Core Python tools used:
+# os library to interact with the operating system
+# datetime library to get the current date and time
+# The code could be improved by adding a way to encrypt or obfuscate the virus to avoid detection by antivirus software, 
+# or by using better methods to infect the files that could make the virus harder to remove. 
+# Additionally, creating malware is illegal and unethical, and it is important to use coding skills in a responsible and legal manner.
+# This virus specifically targets Python scripts, but similar techniques could be used to target other file types. 
 
 # Importing Python libraries
 import os
@@ -77,9 +87,3 @@ detonate()
 
 
 
-# This code is a file-infecting virus that targets Python scripts in the current directory and all its subdirectories. It searches for files with the .py extension and checks if they are already infected by looking for the signature "VIRUS". If a file is not infected, it adds it to the list of files to infect. The virus then appends itself to the target files and saves the original contents to be executed later. Finally, the virus activates itself on May 9th of any year by printing "You have been hacked" to the console.
-# Core Python tools used:
-# os library to interact with the operating system
-# datetime library to get the current date and time
-# The code could be improved by adding a way to encrypt or obfuscate the virus to avoid detection by antivirus software, or by using better methods to infect the files that could make the virus harder to remove. Additionally, creating malware is illegal and unethical, and it is important to use coding skills in a responsible and legal manner.
-# This virus specifically targets Python scripts, but similar techniques could be used to target other file types. 
