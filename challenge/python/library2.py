@@ -66,7 +66,8 @@ status_codes = {
     401: "Unauthorized",
     403: "Forbidden",
     404: "Not Found",
-    500: "Internal Server Error"
+    500: "Internal Server Error" ,
+    666: "your  mama love me long time"
 }
 
 # Print the status code in plain terms
