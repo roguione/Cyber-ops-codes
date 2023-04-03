@@ -1,0 +1,40 @@
+# Onboarding SOP
+
+## Purpose:
+To provide guidance and structure for how to create an effective SOP.
+
+## Scope:
+This SOP applies to all members of the organization who are responsible for writing and maintaining SOPs.
+
+## Responsibilities:
+All members of the organization are responsible for following this SOP when creating new SOPs.
+
+## Prerequisites:
+- A clear understanding of the process or procedure to be documented.
+- Access to any relevant documentation, policies, or procedures.
+- Knowledge of the intended audience for the SOP.
+
+## Procedure:
+This SOP outlines the steps to be followed to ensure timely creation of network accounts for newly on boarded employees.
+
+## Overview
+The HR department will provide the team member A with a list of new employees and their job titles. The team member A will then create new user accounts for each new employee in Active Directory (AD) with their appropriate job title, configure access permissions based on the user's job requirements, and document the creation of each new user account for future reference.
+
+## Steps:
+1. HR department will provide the team member A with the list of new employees to be onboarded and their job titles.
+2. Create new user accounts for each new employee in Active Directory (AD) with their appropriate job title.
+3. Add each new user to the appropriate organizational unit (OU) in AD based on their job title.
+4. Set the initial password for each new user account and communicate it securely to the HR department to be provided to the new employee.
+5. Configure access permissions for the new user account based on the user's job requirements.
+6. The team member A will document the creation of each new user account and their job title for future reference.
+7. Verify that the new user account can successfully log in to the network and access their required resources.
+
+
+## References:
+- So, You Want to Write an SOP?
+- 37 Best Standard Operating Procedure (SOP) Templates
+
+## Definitions:
+- Policy: Broad, overarching guidance that outlines the "why" behind specific procedures or processes.
+- SOP: Detailed procedures that provide specific guidance on the "what, when, why" of a process or procedure.
+- Work Instructions: In-depth, step-by-step directions that provide specific guidance on the "how" of a process or procedure.
