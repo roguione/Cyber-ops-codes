@@ -2,9 +2,9 @@
 
 # Script: Ops 301 ops chal-14
 # Author: Justin H
-# Date of latest revision: 3/30/23
+# Date of latest revision
 # Purpose: VIRUS -DONT RUN THIS-
-# Team: Geneva, Nick, && Sierra
+# Team: M-n-M
 
 # Note: The code presented here is a file-infecting virus and is for educational purposes only. Creating and distributing malware is illegal and unethical.
 # This code is a file-infecting virus that targets Python scripts in the current directory and all its subdirectories. 
